@@ -21,8 +21,8 @@ var connection  = require('express-myconnection'),
 app.use(
 
     connection(mysql,{
-        host     : 'localhost',
-        user     : 'root',
+        host     : process.env.MySql_privateIP,
+        user     : process.env.MySql_userName,
         password : 'mysql123',
         database : 'test',
         debug    : false //set true if you wanna see debug logger
