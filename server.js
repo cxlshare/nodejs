@@ -22,9 +22,9 @@ app.use(
 
     connection(mysql,{
         host     : process.env.MySql_privateIP,
-        user     : 'root',
-        password : 'mysql123',
-        database : 'test',
+        user     : process.env.MySql_dbUserName,
+        password : process.env.MySql_dbPassword,
+        database : process.env.MySql_dbName,
         debug    : false //set true if you wanna see debug logger
     },'request')
 
