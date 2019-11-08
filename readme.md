@@ -31,4 +31,7 @@ You're gonna need to create a DB named 'test' or whatever you name it,  import t
 
 
 ## Open your Browser
-And type: http://<ip-address>:3000/
+
+    And type: http://<ip-address>:3000/
+
+
