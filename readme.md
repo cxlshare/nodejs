@@ -13,7 +13,7 @@ then
 
 ## Mysql
 
-    Seed data : s3://cxlshare/artifacts/mysql/mysqlAndNodejs.sql
+    Seed data : https://cxlshare.s3.us-east-2.amazonaws.com/artifacts/mysql/mysqlAndNodejs.sql
 
 
 ## Configuration (database)
@@ -26,8 +26,7 @@ server.js
         database : process.env.MySql_dbName,	
 
 
-	
-You're gonna need to create a DB named 'test' or whatever you name it,  import t_user.sql
+
 
 
 ## Open your Browser
