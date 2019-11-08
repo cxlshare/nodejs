@@ -13,7 +13,7 @@ then
 
 ## Mysql
 
-    Seed data : https://cxlshare.s3.us-east-2.amazonaws.com/artifacts/mysql/mysqlAndNodejs.sql
+Seed data : https://cxlshare.s3.us-east-2.amazonaws.com/artifacts/mysql/mysqlAndNodejs.sql
 
 
 ## Configuration (database)
@@ -32,5 +32,3 @@ server.js
 ## Open your Browser
 
     And type: http://<ip-address>:3000/
-
-
